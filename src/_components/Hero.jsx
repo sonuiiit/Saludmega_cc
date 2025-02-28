@@ -2,12 +2,13 @@ import React from "react";
 
 const HeroSection = ({ onClick }) => {
   return (
-    <div className="relative w-full h-[90vh] flex items-center bg-cover bg-center bg-no-repeat">
+    <div className="relative w-full xl:h-[100vh] md:[h-80vh] h-[70vh]   flex items-center bg-cover bg-center bg-no-repeat">
       {/* Mobile Background */}
       <div
-        className="absolute inset-0 bg-cover bg-center bg-no-repeat block sm:hidden"
+        className="absolute inset-0 bg-cover bg-center bg-no-repeat block sm:hidden object-[50%_right]"
         style={{
           backgroundImage: `url('/images/FamilyBeach-mobile.png')`,
+          backgroundPosition: '25% center' 
         }}
       />
 
@@ -16,12 +17,13 @@ const HeroSection = ({ onClick }) => {
         className="absolute inset-0 bg-cover bg-center bg-no-repeat hidden sm:block lg:hidden"
         style={{
           backgroundImage: `url('/images/FamilyBeach.jpeg')`,
+          backgroundPosition: '0% center' 
         }}
       />
 
       {/* Desktop Background */}
       <div
-        className="absolute inset-0 bg-cover bg-center bg-no-repeat hidden lg:block"
+        className="absolute inset-0 bg-cover bg-center bg-no-repeat hidden lg:block "
         style={{
           backgroundImage: `url('/images/FamilyBeach-desktop.png')`,
         }}
