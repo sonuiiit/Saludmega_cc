@@ -2,10 +2,10 @@ import React from 'react';
 
 const Section1 = ({ onClick }) => {
   return (
-    <div className="flex flex-col xl:flex-row items-center justify-center gap-4  p-6 md:p-12 xl:p-24 md:mx-16 ">
+    <div className="flex flex-col xl:flex-row items-center justify-center gap-4  p-6 md:p-12 xl:p-24 md:mx-16 xl:mx-0  ">
       
       {/* Text Section */}
-      <div className=" w-full  xl:w-1/3 text-center xl:text-left order-2 xl:order-1 ">
+      <div className=" w-full  xl:w-1/3 text-center xl:text-left order-2 xl:order-1  ">
         {/* Heading Only for Desktop */}
         <h2 className="hidden xl:block text-4xl xl:text-5xl font-bold mb-4 text-gray-600">
           Comprometidos Contigo
