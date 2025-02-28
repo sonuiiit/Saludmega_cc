@@ -2,10 +2,10 @@ import React from 'react';
 
 const Section1 = ({ onClick }) => {
   return (
-    <div className="flex flex-col xl:flex-row items-center justify-center gap-4  p-6 md:p-12 xl:p-24 ">
+    <div className="flex flex-col xl:flex-row items-center justify-center gap-4  p-6 md:p-12 xl:p-24 md:mx-16 ">
       
       {/* Text Section */}
-      <div className="md:w-1/2 w-2/3  xl:w-1/3 text-center xl:text-left order-2 xl:order-1 ">
+      <div className=" w-full  xl:w-1/3 text-center xl:text-left order-2 xl:order-1 ">
         {/* Heading Only for Desktop */}
         <h2 className="hidden xl:block text-4xl xl:text-5xl font-bold mb-4 text-gray-600">
           Comprometidos Contigo
@@ -32,7 +32,7 @@ const Section1 = ({ onClick }) => {
         <img
           src="/images/DoctorMeeting.jpeg"
           alt="Comprometidos Contigo"
-          className="rounded-xl md:w-1/2 w-2/3 xl:w-full object-cover mx-auto h-[250px] md:h-[300px] xl:h-[400px] object-center"
+          className="rounded-xl  w-full  xl:w-full object-cover mx-auto h-[250px] md:h-[300px] xl:h-[400px] object-center"
         />
       </div>
     </div>

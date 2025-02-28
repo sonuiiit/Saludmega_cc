@@ -3,11 +3,11 @@ import React from 'react'
 export const Section2 = () => {
   return (
     <div>
-      <section className="bg-[#D3EAE3] p-10">
+      <section className="bg-[#D3EAE3] md:p-10 p-2">
         <div className="max-w-5xl mx-auto rounded-2xl overflow-hidden">
           {/* Heading */}
           <div className="bg-white p-4">
-            <h2 className="text-[40px] font-bold text-center text-[#1F7D5C]">
+            <h2 className="md:text-[40px] text-[30px]  font-bold text-center text-[#1F7D5C]">
               Facilitamos Tu Bienestar
             </h2>
           </div>
