@@ -11,7 +11,7 @@ export const Section3 = () => {
       </div>
 
       {/* Image */}
-      <img src={'/images/WomanDoctor.jpeg'} alt='Woman Doctor' className="w-full object-cover xl:h-[600px] " />
+      <img src={'/images/WomanDoctor.webp'} alt='Woman Doctor' className="w-full object-cover xl:h-[600px] " />
 
     </div>
   );

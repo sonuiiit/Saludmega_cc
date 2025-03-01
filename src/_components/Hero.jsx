@@ -7,8 +7,8 @@ const HeroSection = ({ onClick }) => {
       <div
         className="absolute inset-0 bg-cover bg-center bg-no-repeat block sm:hidden object-[50%_right]"
         style={{
-          backgroundImage: `url('/images/FamilyBeach-mobile.png')`,
-          backgroundPosition: '25% center' 
+          backgroundImage: `url('/images/FamilyBeach-tm.webp')`,
+          backgroundPosition: '50% center' 
         }}
       />
 
@@ -16,7 +16,7 @@ const HeroSection = ({ onClick }) => {
       <div
         className="absolute inset-0 bg-cover bg-center bg-no-repeat hidden sm:block lg:hidden"
         style={{
-          backgroundImage: `url('/images/FamilyBeach.jpeg')`,
+          backgroundImage: `url('/images/FamilyBeach-tm.webp')`,
           backgroundPosition: '0% center' 
         }}
       />
@@ -25,7 +25,7 @@ const HeroSection = ({ onClick }) => {
       <div
         className="absolute inset-0 bg-cover bg-center bg-no-repeat hidden lg:block "
         style={{
-          backgroundImage: `url('/images/FamilyBeach-desktop.png')`,
+          backgroundImage: `url('/images/FamilyBeach-desktop.webp')`,
         }}
       />
 

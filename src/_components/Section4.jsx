@@ -69,7 +69,7 @@ const sendMessage = async (contactMethod) => {
       {/* Left Side - Image */}
       <div className="w-full lg:w-1/2 h-[300px] lg:h-[700px] mt-0">
         <img
-          src="/images/WritingPhone.jpeg"
+          src="/images/WritingPhone.webp"
           alt="Contact Us"
           className="w-full lg:h-full h-[300px] object-cover lg:rounded-l-lg object-[20%_center]"
         />

@@ -18,7 +18,7 @@ export const Section2 = () => {
             <div className="flex flex-col sm:flex-row xl:flex-col items-center gap-4">
               <div className="w-full sm:w-1/2 xl:w-full h-64 overflow-hidden rounded-xl">
                 <img
-                  src="/images/Nurse.jpeg"
+                  src="/images/Nurse.webp"
                   alt="Atención Personalizada"
                   className="w-full h-full object-cover rounded-xl"
                 />
@@ -38,7 +38,7 @@ export const Section2 = () => {
             <div className="flex flex-col sm:flex-row-reverse xl:flex-col items-center gap-4 sm:justify-center">
               <div className="w-full sm:w-1/2 xl:w-full h-64 overflow-hidden rounded-xl">
                 <img
-                  src="/images/DoctorPatient.jpeg"
+                  src="/images/DoctorPatient.webp"
                   alt="Respaldo y Seguridad"
                   className="w-full h-full object-cover rounded-xl object-[40%_left]"
                 />
@@ -59,7 +59,7 @@ export const Section2 = () => {
             <div className="flex flex-col sm:flex-row xl:flex-col items-center gap-4">
               <div className="w-full sm:w-1/2 xl:w-full h-64 overflow-hidden rounded-xl">
                 <img
-                  src="/images/DoctorPC.jpeg"
+                  src="/images/DoctorPC.webp"
                   alt="Calidad Garantizada"
                   className="w-full h-full object-cover rounded-xl object-[10%_left]"
                 />

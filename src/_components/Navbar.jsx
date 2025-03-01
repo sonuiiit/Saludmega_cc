@@ -3,7 +3,7 @@ import { Menu, Mail } from 'lucide-react';
 
 export default function Navbar({ onClick }) {
   return (
-    <div className="flex items-center justify-between px-4 xl:mx-32 md:mx-16 mt-2 relative">
+    <div className="flex items-center justify-between px-4 xl:mx-4 md:mx-8 mt-2 relative">
       {/* Left Side */}
       <div className="flex items-center gap-2">
         {/* Hamburger Menu: Only Visible on Mobile (sm), Hidden on md+ */}
@@ -29,7 +29,7 @@ export default function Navbar({ onClick }) {
           </div>
 
           {/* 'Inicio' Text: Hidden on Mobile, Shown on md+ */}
-          <div className="hidden md:block text-lg md:text-xl xl:text-2xl font-semibold ml-2 text-gray-500 leading-none relative top-1">
+          <div className="hidden md:block text-lg md:text-xl xl:text-2xl font-semibold ml-2 text-gray-500 leading-none relative ">
             Inicio
           </div>
         </div>
@@ -48,7 +48,7 @@ export default function Navbar({ onClick }) {
         {/* Full Button for Tablet and Desktop */}
         <button
           onClick={() => onClick()}
-          className="hidden md:block bg-[#008369] w-32 md:w-40 xl:w-48 mb-2 h-12 rounded-2xl text-white tracking-widest"
+          className="hidden md:block bg-[#008369] p-2 w-32 md:w-40 xl:w-44 mb-2 h-12 rounded-2xl text-white tracking-widest"
         >
           Contáctanos
         </button>

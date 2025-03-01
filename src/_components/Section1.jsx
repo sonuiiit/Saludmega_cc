@@ -30,7 +30,7 @@ const Section1 = ({ onClick }) => {
         </h2>
         
         <img
-          src="/images/DoctorMeeting.jpeg"
+          src="/images/DoctorMeeting.webp"
           alt="Comprometidos Contigo"
           className="rounded-xl  w-full  xl:w-full object-cover mx-auto h-[250px] md:h-[300px] xl:h-[400px] object-center"
         />
