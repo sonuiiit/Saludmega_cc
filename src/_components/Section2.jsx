@@ -2,18 +2,18 @@ import React from 'react'
 
 export const Section2 = () => {
   return (
-    <div>
+    <div className=''>
       <section className="bg-[#D3EAE3] md:p-10 p-2">
-        <div className="max-w-5xl mx-auto rounded-2xl overflow-hidden">
+        <div className=" md:mx-12 rounded-2xl overflow-hidden">
           {/* Heading */}
           <div className="bg-white p-4">
-            <h2 className="md:text-[40px] text-[30px]  font-bold text-center text-[#1F7D5C]">
+            <h2 className="md:text-[40px] text-[30px]  font-bold text-center text-primary">
               Facilitamos Tu Bienestar
             </h2>
           </div>
 
           {/* Card Section */}
-          <div className="grid grid-cols-1 xl:grid-cols-3 gap-6 p-10 bg-[#1F7D5C]">
+          <div className="grid grid-cols-1 xl:grid-cols-3 gap-6 p-10 bg-primary">
             {/* Card 1 */}
             <div className="flex flex-col sm:flex-row xl:flex-col items-center gap-4">
               <div className="w-full sm:w-1/2 xl:w-full h-64 overflow-hidden rounded-xl">

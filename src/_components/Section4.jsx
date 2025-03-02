@@ -98,7 +98,7 @@ const sendMessage = async (contactMethod) => {
                 onChange={handleChange}
                 required
                 placeholder="Ingresa tu nombre aquí"
-                className="w-full border border-gray-300 rounded-lg p-3 mt-1 focus:ring-2 focus:ring-green-500"
+                className="w-full border border-gray-300 rounded-lg p-3 mt-1 focus:ring-2 focus:ring-primary"
               />
             </div>
   
@@ -113,7 +113,7 @@ const sendMessage = async (contactMethod) => {
                 onChange={handleChange}
                 required
                 placeholder="Ingresa tu correo aquí"
-                className="w-full border border-gray-300 rounded-lg p-3 mt-1 focus:ring-2 focus:ring-green-500"
+                className="w-full border border-gray-300 rounded-lg p-3 mt-1 focus:ring-2 focus:ring-primary"
               />
             </div>
   
@@ -128,7 +128,7 @@ const sendMessage = async (contactMethod) => {
                 onChange={handleChange}
                 placeholder="Ingresa tu número de teléfono aquí"
                 required
-                className="w-full border border-gray-300 rounded-lg p-3 mt-1 focus:ring-2 focus:ring-green-500"
+                className="w-full border border-gray-300 rounded-lg p-3 mt-1 focus:ring-2 focus:ring-primary"
               />
             </div>
   
@@ -143,7 +143,7 @@ const sendMessage = async (contactMethod) => {
                 onChange={handleChange}
                 placeholder="Escribe tu mensaje aquí"
                 required
-                className="w-full border border-gray-300 rounded-lg p-3 mt-1 focus:ring-2 focus:ring-green-500"
+                className="w-full border border-gray-300 rounded-lg p-3 mt-1 focus:ring-2 focus:ring-primary"
               ></textarea>
             </div>
   
@@ -152,14 +152,14 @@ const sendMessage = async (contactMethod) => {
               <button 
                 type="button"
                 onClick={() => sendMessage("email")}
-                className="flex items-center justify-center w-full bg-[#008369] text-white font-medium py-3 rounded-xl hover:bg-[#006a55] transition"
+                className="flex items-center justify-center w-full bg-primary text-white font-medium py-3 rounded-xl hover:bg-[#006a55] transition"
               >
                 <Mail className="mr-2" /> CORREO
               </button>
               <button 
                 type="button"
                 onClick={() => sendMessage("whatsapp")}
-                className="flex items-center justify-center w-full bg-[#008369] text-white font-medium py-3 rounded-xl hover:bg-[#006a55] transition"
+                className="flex items-center justify-center w-full bg-primary text-white font-medium py-3 rounded-xl hover:bg-[#006a55] transition"
               >
                 <Mail className="mr-2" /> WHATSAPP
               </button>

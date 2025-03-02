@@ -40,7 +40,7 @@ export default function Navbar({ onClick }) {
         {/* Mobile Icon Button */}
         <button
           onClick={() => onClick()}
-          className="bg-[#008369] sm:flex md:hidden w-12 h-12 rounded-2xl text-white flex items-center justify-center"
+          className="bg-primary sm:flex md:hidden w-12 h-12 rounded-2xl text-white flex items-center justify-center"
         >
           <Mail className="w-5 h-5" />
         </button>
@@ -48,7 +48,7 @@ export default function Navbar({ onClick }) {
         {/* Full Button for Tablet and Desktop */}
         <button
           onClick={() => onClick()}
-          className="hidden md:block bg-[#008369] p-2 w-32 md:w-40 xl:w-44 mb-2 h-12 rounded-2xl text-white tracking-widest"
+          className="hidden md:block bg-primary p-2 w-32 md:w-40 xl:w-44 mb-2 h-12 rounded-2xl text-white tracking-widest"
         >
           Contáctanos
         </button>
