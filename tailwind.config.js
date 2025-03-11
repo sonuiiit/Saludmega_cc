@@ -8,6 +8,11 @@ module.exports = {
       colors: {
         primary: "#008369",
       },
+      fontFamily: {
+        lato: ['Lato', 'sans-serif'],
+        poppins: ['Poppins', 'sans-serif'],
+        noto: ['Noto Sans', 'sans-serif'],
+      },
     },
   },
   plugins: [],

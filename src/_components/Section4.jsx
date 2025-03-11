@@ -78,17 +78,17 @@ const sendMessage = async (contactMethod) => {
       {/* Right Side - Form */}
       <div className="w-full lg:w-1/2">
         <div className="px-4 md:px-8 py-2 space-y-4 md:space-y-6">
-          <h2 className="text-3xl md:text-4xl font-extrabold text-gray-800 text-center md:text-left">
+          <h2 className="text-3xl md:text-4xl font-extrabold text-[#44494A] text-center md:text-left font-poppins">
             Contáctanos
           </h2>
-          <p className="text-gray-600 text-center md:text-left text-md font-medium">
+          <p className="text-gray-600 text-center md:text-left text-md font-medium font-lato">
             ¿Tienes preguntas o necesitas más información? Escríbenos y nuestro equipo te responderá lo antes posible.
           </p>
         </div>
         <div className="bg-white rounded-lg shadow-md">
           <form className="mt-4 md:mt-6 space-y-4 px-4 md:px-8 py-6">
             <div>
-              <label className="block text-gray-700 font-medium">
+              <label className="block text-gray-700 font-medium font-noto">
                 Nombre completo<span className="text-red-500">*</span>
               </label>
               <input
@@ -103,7 +103,7 @@ const sendMessage = async (contactMethod) => {
             </div>
   
             <div>
-              <label className="block text-gray-700 font-medium">
+              <label className="block text-gray-700 font-medium font-noto">
                 Correo electrónico<span className="text-red-500">*</span>
               </label>
               <input
@@ -118,7 +118,7 @@ const sendMessage = async (contactMethod) => {
             </div>
   
             <div>
-              <label className="block text-gray-700 font-medium">
+              <label className="block text-gray-700 font-medium font-noto">
                 Número de teléfono<span className="text-red-500">*</span>
               </label>
               <input
@@ -133,7 +133,7 @@ const sendMessage = async (contactMethod) => {
             </div>
   
             <div>
-              <label className="block text-gray-700 font-medium">
+              <label className="block text-gray-700 font-medium font-noto">
                 Mensaje o consulta<span className="text-red-500">*</span>
               </label>
               <textarea
@@ -152,14 +152,14 @@ const sendMessage = async (contactMethod) => {
               <button 
                 type="button"
                 onClick={() => sendMessage("email")}
-                className="flex items-center justify-center w-full bg-primary text-white font-medium py-3 rounded-xl hover:bg-[#006a55] transition"
+                className="flex items-center justify-center font-lato w-full bg-primary text-white font-medium py-3 rounded-xl hover:bg-[#006a55] transition"
               >
                 <Mail className="mr-2" /> CORREO
               </button>
               <button 
                 type="button"
                 onClick={() => sendMessage("whatsapp")}
-                className="flex items-center justify-center w-full bg-primary text-white font-medium py-3 rounded-xl hover:bg-[#006a55] transition"
+                className="flex items-center justify-center font-lato w-full bg-primary text-white font-medium py-3 rounded-xl hover:bg-[#006a55] transition"
               >
                 <Mail className="mr-2" /> WHATSAPP
               </button>

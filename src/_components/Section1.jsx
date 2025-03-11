@@ -7,11 +7,11 @@ const Section1 = ({ onClick }) => {
       {/* Text Section */}
       <div className="  w-full lg:w-1/2 text-center lg:text-left order-2 lg:order-1 mr-0 lg:mr-16 ">
         {/* Heading Only for Desktop */}
-        <h2 className="hidden lg:block text-4xl lg:text-5xl font-bold text-gray-600 lg:mb-8">
+        <h2 className="hidden font-poppins lg:block text-4xl lg:text-5xl font-bold text-[#44494A] lg:mb-8">
           Comprometidos Contigo
         </h2>
         
-        <p className="text-gray-600 mb-6 text-sm md:text-base lg:text-lg text-left">
+        <p className="text-gray-600 font-lato mb-6 text-sm md:text-base lg:text-xl text-left">
           Trabajamos cada día para ofrecerte el apoyo necesario en tu camino hacia una vida más
           saludable. Nos importa tu salud, y por eso estamos aquí para asegurarnos de que siempre
           tengas acceso a lo que necesitas para sentirte bien y alcanzar tu mejor versión.

@@ -13,7 +13,7 @@ export const Section2 = () => {
           </div>
 
           {/* Card Section */}
-          <div className="grid grid-cols-1 xl:grid-cols-3 gap-6 p-10 bg-primary">
+          <div className="grid grid-cols-1 xl:grid-cols-3 gap-6 p-10 bg-primary ">
             {/* Card 1 */}
             <div className="flex flex-col sm:flex-row xl:flex-col items-center gap-4">
               <div className="w-full sm:w-1/2 xl:w-full h-64 overflow-hidden rounded-xl">
@@ -24,10 +24,10 @@ export const Section2 = () => {
                 />
               </div>
               <div className="w-full sm:w-1/2 xl:w-full">
-                <h3 className="text-2xl lg:text-4xl mb-2 font-bold text-white text-left">
+                <h3 className="text-2xl lg:text-4xl mb-2 font-bold text-white text-left font-poppins">
                   Atención Personalizada
                 </h3>
-                <p className="text-white text-md font-medium text-left">
+                <p className="text-white text-md font-light text-left font-lato">
                   Nuestro equipo de profesionales está comprometido en brindarte un trato humano y
                   adaptado a tus necesidades, asegurando una experiencia de cuidado excepcional.
                 </p>
@@ -44,10 +44,10 @@ export const Section2 = () => {
                 />
               </div>
               <div className="w-full sm:w-1/2 xl:w-full">
-                <h3 className="text-2xl lg:text-4xl mb-2 font-bold text-white text-left">
+                <h3 className="text-2xl lg:text-4xl mb-2 font-bold text-white text-left font-poppins">
                   Respaldo Y Seguridad
                 </h3>
-                <p className="text-white text-md font-medium text-left">
+                <p className="text-white text-md font-light text-left font-lato">
                   Cuentas con el respaldo de una estructura consolidada en el ámbito de la salud, con
                   procesos avalados por años de experiencia y un enfoque centrado en el bienestar de
                   cada persona.
@@ -65,10 +65,10 @@ export const Section2 = () => {
                 />
               </div>
               <div className="w-full sm:w-1/2 xl:w-full">
-                <h3 className="text-2xl lg:text-4xl mb-2 font-bold text-white text-left">
+                <h3 className="text-2xl lg:text-4xl mb-2 font-bold text-white text-left font-poppins">
                   Calidad Garantizada
                 </h3>
-                <p className="text-white text-md font-medium text-left">
+                <p className="text-white text-md font-light text-left font-lato">
                   Ofrecemos productos con altos estándares de calidad, desarrollados con respaldo
                   científico, y te brindamos facilidad de acceso a los medicamentos que necesitas.
                 </p>
