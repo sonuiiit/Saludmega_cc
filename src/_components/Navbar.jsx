@@ -12,7 +12,7 @@ export default function Navbar({ onClick }) {
         </div>
 
         {/* Logo and 'Inicio' Text */}
-        <div className="flex items-center gap-2">
+        <div className="flex items-center gap-2 relative md:-top-2">
           <div className="w-28 h-[55px] md:w-32 xl:w-36 flex items-center">
             {/* Mobile Logo */}
             <img
