@@ -64,7 +64,7 @@ const sendMessage = async (contactMethod) => {
 
 
   return (
-    <section className="bg-white flex justify-center pt-12 pb-0 lg:pb-12 px-0">
+    <section className="bg-[#EAEDF0] flex justify-center pt-12 pb-0 lg:pb-12 px-0">
     <div className="flex flex-col-reverse lg:flex-row items-center max-w-5xl w-full ">
       {/* Left Side - Image */}
       <div className="w-full lg:w-1/2 h-[300px] lg:h-[700px] mt-0">
@@ -76,7 +76,7 @@ const sendMessage = async (contactMethod) => {
       </div>
   
       {/* Right Side - Form */}
-      <div className="w-full lg:w-1/2">
+      <div className="w-full lg:w-1/2 ">
         <div className="px-4 md:px-8 py-2 space-y-4 md:space-y-6">
           <h2 className="text-3xl md:text-4xl font-extrabold text-[#44494A] text-center md:text-left font-poppins">
             Contáctanos
@@ -152,14 +152,14 @@ const sendMessage = async (contactMethod) => {
               <button 
                 type="button"
                 onClick={() => sendMessage("email")}
-                className="flex items-center justify-center font-lato w-full bg-primary text-white font-medium py-3 rounded-xl hover:bg-[#006a55] transition"
+                className="flex items-center justify-center font-lato  bg-primary text-white font-medium py-3 rounded-xl hover:bg-[#006a55] transition w-[192px] h-[55px]"
               >
                 <Mail className="mr-2" /> CORREO
               </button>
               <button 
                 type="button"
                 onClick={() => sendMessage("whatsapp")}
-                className="flex items-center justify-center font-lato w-full bg-primary text-white font-medium py-3 rounded-xl hover:bg-[#006a55] transition"
+                className="flex items-center justify-center font-lato  bg-primary text-white font-medium py-3 rounded-xl hover:bg-[#006a55] transition w-[192px] h-[55px]"
               >
                 <Mail className="mr-2" /> WHATSAPP
               </button>

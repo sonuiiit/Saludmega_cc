@@ -19,7 +19,7 @@ const Section1 = ({ onClick }) => {
         
         <button 
           onClick={() => onClick()} 
-          className="bg-primary text-white py-4 px-6 rounded-xl hover:bg-primary transition"
+          className="bg-primary text-white py-4 px-6 rounded-xl hover:bg-primary transition w-[226px] h-[80px]"
         >
           CONTÁCTANOS
         </button>

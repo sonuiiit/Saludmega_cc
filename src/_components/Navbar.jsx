@@ -29,7 +29,7 @@ export default function Navbar({ onClick }) {
           </div>
 
           {/* 'Inicio' Text: Hidden on Mobile, Shown on md+ */}
-          <button className="hidden  font-poppins md:block text-lg md:text-xl xl:text-xl font-bold ml-2 text-[#43525D] leading-none relative ">
+          <button className="hidden  font-poppins md:block text-lg md:text-xl xl:text-xl font-semibold ml-2 top-1 text-[#43525D] leading-none relative ">
             Inicio
           </button>
         </div>
