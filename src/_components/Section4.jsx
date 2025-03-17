@@ -81,9 +81,11 @@ const sendMessage = async (contactMethod) => {
           <h2 className="text-3xl md:text-4xl font-extrabold text-[#44494A] text-center md:text-left font-poppins">
             Contáctanos
           </h2>
-          <p className="text-gray-600  text-[18px] text-left md:text-left text-md font-medium font-lato lg:w-[480px] lg:h-[55px] md:w-[590px] md:h-[55px] w-[352px] h-[55px] flex flex-wrap ">
-            ¿Tienes preguntas o necesitas más información? Escríbenos y nuestro equipo te responderá lo antes posible.
-          </p>
+          <p className="text-gray-600 text-[14px] md:text-[18px] text-left font-medium font-lato 
+              lg:w-[480px] md:w-[590px] w-full max-w-full flex-wrap leading-tight">
+  ¿Tienes preguntas o necesitas más información? Escríbenos y nuestro equipo te responderá lo antes posible.
+</p>
+
         </div>
         <div className="bg-white rounded-lg shadow-md">
           <form className="mt-4 md:mt-6 space-y-4 px-4 md:px-8 py-6">
