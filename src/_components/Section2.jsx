@@ -2,20 +2,20 @@ import React from 'react'
 
 export const Section2 = () => {
   return (
-    <div className=''>
+    <div>
       <section className="bg-[#D3EAE3] md:p-10 p-2">
-        <div className=" md:mx-12 rounded-2xl overflow-hidden">
+        <div className="md:mx-12 rounded-2xl overflow-hidden mt-2">
           {/* Heading */}
           <div className="bg-white p-4">
-            <h2 className="md:text-[40px] text-[30px]  font-bold text-center text-primary">
+            <h2 className="md:text-[40px] text-[30px] font-bold text-center text-primary">
               Facilitamos Tu Bienestar
             </h2>
           </div>
 
           {/* Card Section */}
-          <div className="grid grid-cols-1 xl:grid-cols-3 gap-6 p-10 bg-primary ">
+          <div className="grid grid-cols-1 xl:grid-cols-3 gap-6 p-10 bg-primary">
             {/* Card 1 */}
-            <div className="flex flex-col sm:flex-row xl:flex-col items-center gap-4">
+            <div className="flex flex-col sm:flex-row xl:flex-col lg:flex-nowrap items-center gap-4">
               <div className="w-full sm:w-1/2 xl:w-full h-64 overflow-hidden rounded-xl">
                 <img
                   src="/images/Nurse.webp"
@@ -24,7 +24,7 @@ export const Section2 = () => {
                 />
               </div>
               <div className="w-full sm:w-1/2 xl:w-full">
-                <h3 className="text-2xl lg:text-4xl mb-2 font-bold text-white text-left font-poppins">
+                <h3 className="text-2xl md:text-4xl mb-2 font-bold text-white text-left font-poppins">
                   Atención Personalizada
                 </h3>
                 <p className="text-white text-md font-light text-left font-lato">
@@ -35,7 +35,7 @@ export const Section2 = () => {
             </div>
 
             {/* Card 2 */}
-            <div className="flex flex-col sm:flex-row-reverse xl:flex-col items-center gap-4 sm:justify-center">
+            <div className="flex flex-col sm:flex-row-reverse xl:flex-col lg:flex-nowrap items-center gap-4 sm:justify-center">
               <div className="w-full sm:w-1/2 xl:w-full h-64 overflow-hidden rounded-xl">
                 <img
                   src="/images/DoctorPatient.webp"
@@ -44,7 +44,7 @@ export const Section2 = () => {
                 />
               </div>
               <div className="w-full sm:w-1/2 xl:w-full">
-                <h3 className="text-2xl lg:text-4xl mb-2 font-bold text-white text-left font-poppins">
+                <h3 className="text-2xl md:text-4xl mb-2 font-bold text-white text-left font-poppins">
                   Respaldo Y Seguridad
                 </h3>
                 <p className="text-white text-md font-light text-left font-lato">
@@ -56,7 +56,7 @@ export const Section2 = () => {
             </div>
 
             {/* Card 3 */}
-            <div className="flex flex-col sm:flex-row xl:flex-col items-center gap-4">
+            <div className="flex flex-col sm:flex-row xl:flex-col lg:flex-nowrap items-center gap-4">
               <div className="w-full sm:w-1/2 xl:w-full h-64 overflow-hidden rounded-xl">
                 <img
                   src="/images/DoctorPC.webp"
@@ -65,7 +65,7 @@ export const Section2 = () => {
                 />
               </div>
               <div className="w-full sm:w-1/2 xl:w-full">
-                <h3 className="text-2xl lg:text-4xl mb-2 font-bold text-white text-left font-poppins">
+                <h3 className="text-2xl md:text-4xl mb-2 font-bold text-white text-left font-poppins">
                   Calidad Garantizada
                 </h3>
                 <p className="text-white text-md font-light text-left font-lato">

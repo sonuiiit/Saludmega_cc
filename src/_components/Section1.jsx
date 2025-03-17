@@ -1,28 +1,35 @@
-import React from 'react';
+import React from "react";
 
 const Section1 = ({ onClick }) => {
   return (
-    <div className=" flex flex-col lg:flex-row items-center justify-center gap-4 p-6 md:p-12 lg:p-24 md:mx-16 lg:mx-0">
-      
+    <div className="flex flex-col lg:flex-row lg:flex-nowrap items-center lg:mx-36 justify-center lg:space-x-10 p-6 lg:h-[750px] md:h-[848px] h-[835px]">
       {/* Text Section */}
-      <div className="  w-full lg:w-1/2 text-center lg:text-left order-2 lg:order-1 mr-0 lg:mr-16 ">
+      <div
+        className="w-full lg:w-1/2 order-2 lg:order-1 
+                   flex flex-col items-center text-center 
+                   lg:items-start lg:text-left"
+      >
         {/* Heading Only for Desktop */}
-        <h2 className="hidden font-poppins lg:block text-4xl lg:text-5xl font-bold text-[#44494A] lg:mb-8">
+        <h2 className="hidden font-poppins  lg:block lg:w-[512px] lg:h-[106px] text-[48px] lg:text-5xl font-bold text-[#44494A] lg:mb-8">
           Comprometidos Contigo
         </h2>
-        
-        <p className="text-gray-600 font-lato mb-6 text-sm md:text-base lg:text-xl text-left">
+
+        <p className="text-gray-600 md:text-[18px] lg:text-[20px] text-[16px] font-lato font-normal mb-2 
+                      md:w-[586px] md:min-h-[110px] 
+                      lg:w-[511px] lg:min-h-[138px] w-[360px] min-h-[165px] text-left mt-2">
           Trabajamos cada día para ofrecerte el apoyo necesario en tu camino hacia una vida más
           saludable. Nos importa tu salud, y por eso estamos aquí para asegurarnos de que siempre
           tengas acceso a lo que necesitas para sentirte bien y alcanzar tu mejor versión.
         </p>
-        
-        <button 
-          onClick={() => onClick()} 
-          className="bg-primary text-white py-4 px-6 rounded-xl hover:bg-primary transition w-[226px] h-[80px]"
+    <div className="  md:w-[586px]  
+                      lg:w-[511px]  w-[360px] flex justify-center md:justify-start ">
+        <button
+          onClick={() => onClick()}
+          className="bg-primary   text-[20px] font-[600] text-white py-4 px-6 rounded-xl hover:bg-primary transition w-[226px] h-[80px]"
         >
           CONTÁCTANOS
         </button>
+        </div>
       </div>
 
       {/* Image Section */}
@@ -31,13 +38,13 @@ const Section1 = ({ onClick }) => {
         <h2 className="text-3xl font-bold text-gray-800 text-center mb-4 lg:hidden">
           Comprometidos Contigo
         </h2>
-        
+
         <img
           src="/images/DoctorMeeting.webp"
           alt="Comprometidos Contigo"
-          className="rounded-xl w-full sm:w-full lg:w-full object-cover mx-auto 
-                     h-[250px] sm:h-[400px] lg:h-[400px] object-center 
-                     sm:mx-2 "
+          className="rounded-xl object-cover mx-auto 
+                     md:w-[585px] md:h-[465px] object-center 
+                     lg:w-[525px] lg:h-[465px] w-[360px] h-[400px]"
         />
       </div>
     </div>

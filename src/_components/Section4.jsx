@@ -64,24 +64,24 @@ const sendMessage = async (contactMethod) => {
 
 
   return (
-    <section className="bg-[#EAEDF0] flex justify-center pt-12 pb-0 lg:pb-12 px-0">
-    <div className="flex flex-col-reverse lg:flex-row items-center max-w-5xl w-full ">
+    <section className="bg-[#EAEDF0] md:bg-white lg:bg-[#EAEDF0] flex justify-center pt-12 pb-0 lg:pb-12 px-0">
+    <div className="flex flex-col-reverse lg:flex-row items-center   w-full lg:mx-24 ">
       {/* Left Side - Image */}
-      <div className="w-full lg:w-1/2 h-[300px] lg:h-[700px] mt-0">
+      <div className=" lg:w-1/2  lg:h-[720px] mt-0 md:w-full md:h-[337px] w-full h-[195px]  ">
         <img
           src="/images/WritingPhone.webp"
           alt="Contact Us"
-          className="w-full lg:h-full h-[300px] object-cover lg:rounded-l-lg object-[20%_center]"
+          className="w-full h-full object-cover lg:rounded-l-lg object-[20%_center] max-w-none"
         />
       </div>
   
       {/* Right Side - Form */}
-      <div className="w-full lg:w-1/2 ">
-        <div className="px-4 md:px-8 py-2 space-y-4 md:space-y-6">
+      <div className="w-full lg:w-1/2 space-y-8 ">
+        <div className="px-4  py-2 space-y-4 md:space-y-6 flex flex-col justify-center items-center lg:items-start ">
           <h2 className="text-3xl md:text-4xl font-extrabold text-[#44494A] text-center md:text-left font-poppins">
             Contáctanos
           </h2>
-          <p className="text-gray-600 text-center md:text-left text-md font-medium font-lato">
+          <p className="text-gray-600  text-[18px] text-left md:text-left text-md font-medium font-lato lg:w-[480px] lg:h-[55px] md:w-[590px] md:h-[55px] w-[352px] h-[55px] flex flex-wrap ">
             ¿Tienes preguntas o necesitas más información? Escríbenos y nuestro equipo te responderá lo antes posible.
           </p>
         </div>
