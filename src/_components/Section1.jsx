@@ -29,7 +29,7 @@ const Section1 = ({ onClick }) => {
 
 
     <div className="  md:w-[586px]  
-                      lg:w-[511px]  w-[360px] flex justify-center md:justify-start ">
+                      lg:w-[511px] mt-4  w-[360px] flex justify-center md:justify-start ">
         <button
           onClick={() => onClick()}
           className="bg-primary   text-[20px] font-[600] text-white py-4 px-6 rounded-xl hover:bg-primary transition w-[226px] h-[80px]"

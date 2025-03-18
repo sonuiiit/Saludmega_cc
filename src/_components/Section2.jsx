@@ -27,7 +27,7 @@ export const Section2 = () => {
                 <h3 className="text-2xl md:text-4xl mb-2 font-bold text-white text-left font-poppins">
                   Atención Personalizada
                 </h3>
-                <p className="text-white text-md font-light text-left font-lato">
+                <p className="text-white text-md font-[400] text-left font-lato">
                   Nuestro equipo de profesionales está comprometido en brindarte un trato humano y
                   adaptado a tus necesidades, asegurando una experiencia de cuidado excepcional.
                 </p>
@@ -47,7 +47,7 @@ export const Section2 = () => {
                 <h3 className="text-2xl md:text-4xl mb-2 font-bold text-white text-left font-poppins">
                   Respaldo Y Seguridad
                 </h3>
-                <p className="text-white text-md font-light text-left font-lato">
+                <p className="text-white text-md font-[400] text-left font-lato">
                   Cuentas con el respaldo de una estructura consolidada en el ámbito de la salud, con
                   procesos avalados por años de experiencia y un enfoque centrado en el bienestar de
                   cada persona.
@@ -68,7 +68,7 @@ export const Section2 = () => {
                 <h3 className="text-2xl md:text-4xl mb-2 font-bold text-white text-left font-poppins">
                   Calidad Garantizada
                 </h3>
-                <p className="text-white text-md font-light text-left font-lato">
+                <p className="text-white text-md font-[400] text-left font-lato ">
                   Ofrecemos productos con altos estándares de calidad, desarrollados con respaldo
                   científico, y te brindamos facilidad de acceso a los medicamentos que necesitas.
                 </p>
