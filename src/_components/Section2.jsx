@@ -2,11 +2,11 @@ import React from 'react'
 
 export const Section2 = () => {
   return (
-    <div>
-      <section className="bg-[#D3EAE3] md:p-10 p-2">
-        <div className="md:mx-12 rounded-2xl overflow-hidden mt-2">
+    <div className='bg-[#D3EAE3] overflow-hidden'>
+      <div className=" lg:mt-[60px] lg:mb-[60px] md:mt-[76px] md:mb-[76px] mt-[30px] mb-[30px] mx-[11px] md:px-4   ">
+        <div className="md:mx-12 rounded-2xl overflow-hidden">
           {/* Heading */}
-          <div className="bg-white p-4">
+          <div className="bg-white p-4  ">
             <h2 className="md:text-[40px] text-[30px] font-bold text-center text-primary">
               Facilitamos Tu Bienestar
             </h2>
@@ -76,7 +76,7 @@ export const Section2 = () => {
             </div>
           </div>
         </div>
-      </section>
+      </div>
     </div>
   )
 }

@@ -30,7 +30,7 @@ const HeroSection = ({ onClick }) => {
       />
 
       {/* Content Section */}
-      <div className="relative w-full px-6 flex justify-center lg:justify-end lg:mx-20 md:-top-20  lg:top-12 -top-8">
+      <div className="relative w-full px-6 flex justify-center lg:justify-end lg:mx-20 md:-top-20  lg:top-12 -top-4">
         <div className="max-w-lg text-gray-600 text-center lg:text-right flex flex-col justify-center items-center">
           <h1 className="text-5xl md:text-4xl font-bold leading-tight font-poppins text-[#44494A]">
             Impulsa Tu <br className="block md:hidden" /> Bienestar
