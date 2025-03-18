@@ -67,7 +67,7 @@ const sendMessage = async (contactMethod) => {
     <section className="bg-[#EAEDF0] md:bg-white lg:bg-[#EAEDF0] flex justify-center pt-12 pb-0 lg:pb-12 px-0">
     <div className="flex flex-col-reverse lg:flex-row items-center   w-full lg:mx-24 ">
       {/* Left Side - Image */}
-      <div className=" lg:w-1/2  lg:h-[720px] mt-0 md:w-full md:h-[337px] w-full h-[195px]  ">
+      <div className=" lg:w-1/2  lg:h-[710px] mt-0 md:w-full md:h-[337px] w-full h-[195px]  ">
         <img
           src="/images/WritingPhone.webp"
           alt="Contact Us"
@@ -87,7 +87,7 @@ const sendMessage = async (contactMethod) => {
 </p>
 
         </div>
-        <div className="bg-white rounded-lg shadow-md">
+        <div className="bg-white rounded-r-lg shadow-md">
           <form className="mt-4 md:mt-6 space-y-4 px-4 md:px-8 py-6">
             <div>
               <label className="block text-gray-700 font-medium font-noto">
