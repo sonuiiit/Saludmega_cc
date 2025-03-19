@@ -40,7 +40,7 @@ export default function Navbar({ onClick }) {
         {/* Mobile Icon Button */}
         <button
           onClick={() => onClick()}
-          className="bg-primary flex md:hidden absolute top-0 right-0  w-[74px] h-[74px]  items-center justify-center rounded-l-lg text-white"
+          className="bg-primary flex md:hidden absolute top-0 right-0  w-[74px] h-[74px]  items-center justify-center rounded-l-2xl text-white"
         >
           <Mail className="w-[50px] h-[50px] p-2" />
         </button>
